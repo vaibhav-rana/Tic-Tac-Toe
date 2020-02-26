@@ -1,11 +1,11 @@
 td{
    width:100px;
    height: 100px;
-   background-color: #333;
+   background-color: #ffc544;
    font-size: 50px;
    padding: 5px;
-   color: #ffc544;
-   border: 5px solid #ffc544;
+   color: #333;
+   border: 5px solid #333;
     cursor: pointer;
 }
 tr{
@@ -17,8 +17,9 @@ table{
     color: white;
 }
 body{
-    background-color:#ffc544;
+    background-color:#333;
     font-family: 'Kalam';
+    color: #ffc544;
 
 }
 hr{
