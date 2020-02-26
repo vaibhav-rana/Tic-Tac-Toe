@@ -39,7 +39,7 @@ function winner(){
         if(getvlue(1)!="" && getvlue(2)!="" && getvlue(3)!="" &&
            getvlue(6)!="" && getvlue(5)!="" && getvlue(4)!="" && 
            getvlue(7)!="" && getvlue(8)!="" && getvlue(9)!=""){
-           disp.innerHTML = "It's tie...👎🏻🏻";
+           disp.innerHTML = "It's tie...👎🏻";
             throw "tie";
         }
         
