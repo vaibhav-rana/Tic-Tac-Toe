@@ -1,0 +1,27 @@
+td{
+   width:100px;
+   height: 100px;
+   background-color: #333;
+   font-size: 50px;
+   padding: 5px;
+   color: #ffc544;
+   border: 5px solid #ffc544;
+    cursor: pointer;
+}
+tr{
+    padding: 20xp;
+}
+table{
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+body{
+    background-color:#ffc544;
+    font-family: 'Kalam';
+
+}
+hr{
+    width: 30%;
+    border: 1px solid #333;
+}

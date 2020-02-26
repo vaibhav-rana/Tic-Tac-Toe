@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="title_logo.png">
+ </head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center pt-5">Tic Tac Toe</h1>
+        <hr>
+        <h2 class="text-center" id="disp">Let's Start</h2>
+        <table class="text-center">
+            <tr>
+                <td id="r1" onclick="printx('1')"></td>
+                <td id="r2" onclick="printx('2')"></td>
+                <td id="r3" onclick="printx('3')"></td>
+            </tr>
+            <tr>
+                <td id="r4" onclick="printx('4')"></td>
+                <td id="r5" onclick="printx('5')"></td>
+                <td id="r6" onclick="printx('6')"></td>
+            </tr>
+            <tr>
+                <td id="r7" onclick="printx('7')"></td>
+                <td id="r8" onclick="printx('8')"></td>
+                <td id="r9" onclick="printx('9')"></td>
+            </tr>
+        </table>
+        <div class="row">
+            <div class="col-12 text-center">
+                <button onclick="reset()" class="btn btn-secondary text-center mb-4">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
